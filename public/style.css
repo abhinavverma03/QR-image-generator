@@ -1,0 +1,63 @@
+body{
+    background-color:  #011F3F;
+    text-align: center;
+}
+.image{
+    margin-top: 100px;
+    border-style: solid;
+    border-color: #645CAA;
+    border-radius: 12px;
+    border-width: 4px;
+}
+h1{
+    font-size: 53px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 108px 20px 20px 20px;
+    color: #645CAA;
+    font-family: 'Press Start 2P', cursive;
+}
+h3{
+    font-size: 20px;
+    padding-top: 38px;
+    padding-bottom: 30px;
+    color: #645CAA;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#url{
+    height: 30px;
+    width: 50rem;
+    font-family: 'Press Start 2P', cursive;
+    color: #3e3871;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #BFACE0;
+    border-radius: 4px;
+    border-color: #645CAA;
+}
+button{
+    height: 35px;
+    width: 90px;
+    background-color: #BFACE0;
+    border-color: #645CAA;
+    border-radius: 8px;
+    font-size: 18px;
+    border-width: 3px;
+    font-family: fantasy;
+    color: #3e3871;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #60f6b0;
+}
+p{
+    color: #645CAA;
+    font-family: 'Press Start 2P', cursive;
+}
+footer{
+    position: fixed;         
+       bottom: 0px; 
+       width: 100%;
+}

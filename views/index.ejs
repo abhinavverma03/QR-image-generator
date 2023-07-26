@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR image Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <% if(locals.image){ %>
+            <img class = "image" src = "qr_img.png" alt="img">
+            <h3>Enter the URL: </h3>
+            <form action="/submit" method="post">
+            <input type="text" id="url" name="url"><br>
+            <br>
+            <button type="submit">Generate</button>
+        </form>
+        <% }else{ %>
+            <h1>QR Image Generator</h1>
+            <h3>Enter the URL: </h3>
+            <form action="/submit" method="post">
+            <input type="text" id="url" name="url"><br>
+            <br>
+            <button type="submit">Generate</button>
+        </form>
+        <% } %>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+<%- include("footer.ejs") %>
+
+</html>
